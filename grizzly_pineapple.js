@@ -9,7 +9,7 @@ let ind=0;
 let img_c=9;
 function preload(){
   for(let i=0;i<img_c;i++){
-    path = 'data/' +str(i+1)+'.jpg'
+    path = str(i+1)+'.jpg'
     loaded_image=loadImage(path);
     loaded_image.resize(10,10);
     imgs.push(loaded_image);
